@@ -1,0 +1,33 @@
+
+# # Data Quality Report
+
+## Dataset Validation Summary 
+
+### 1. Fund Master Dataset
+
+* Total Records: 40
+* Missing Values: 0
+* Duplicate Records: 0
+
+### 2. NAV History Dataset
+
+* Total Records: 46,000+ (approx.)
+* Missing Values: 0
+* Duplicate Records: 0
+
+### 3. AMFI Code Validation
+
+* Total Fund Codes in fund_master: 40
+* Total Fund Codes in nav_history: 40
+* Missing AMFI Codes: 0
+
+### 4. Data Consistency Checks
+
+* All AMFI codes from fund_master are present in nav_history.
+* Date fields are available for NAV records.
+* NAV values are populated for all records.
+
+### Conclusion
+
+The datasets passed basic quality checks. No missing values, duplicate records, or AMFI code mismatches were detected. The data is suitable for further processing, database loading, and analysis.
+.
